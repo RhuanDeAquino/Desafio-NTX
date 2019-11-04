@@ -1,0 +1,48 @@
+header {
+	background-color: black;
+	color: white;
+}
+.caixa-navegacao {
+	display: flex;
+	height: 10vh;
+}
+.caixa-atividades {
+	width: 60%;
+	display: flex;
+	align-items: center;
+}
+.menu {
+	width: 60%;
+	display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.menu-item {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.caixa-logo {
+	width: 15%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.logo-ntx {
+	width: 75%;
+}
+.caixa-informacoes {
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+.atividades-informacoes {
+	display: flex;
+	justify-content: flex-end;
+}
+.info-logo {
+	width: 7%
+}
