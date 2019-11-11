@@ -35,3 +35,14 @@ function handleOpenNotificacao () {
 		document.querySelector(".caixa-notif").style.border="none"
 	}
 }
+
+function handleTroca() {
+	if(document.querySelector(".caixa-titulos").style.display = 'flex') {
+		document.querySelector(".caixa-titulos").style.display = 'none'
+		document.querySelector(".caixa-titulos2").style.display = 'flex'
+	}
+	else {
+		document.querySelector(".caixa-titulos").style.display = 'flex'
+		document.querySelector(".caixa-titulos2").style.display = 'none'
+	}
+}
