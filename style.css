@@ -6,7 +6,7 @@ body {
 	background-color: black;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-image: url(https://wallpaperaccess.com/full/85323.png);
+	background-image: url(https://i.pinimg.com/736x/97/cd/93/97cd93b2f5391ae878302913ee9c59e0.jpg);
 	z-index: 0;
 }	
 header {
@@ -72,8 +72,8 @@ a {
     height: 45%;
     display: none;
     align-items: center;
-    justify-content: center;
-    background-color: black;
+	justify-content: center;
+	background-color: transparent;
     border: 0;
 }
 .info-logo {
@@ -202,4 +202,36 @@ h2 {
 	width: 15%;
 	border: 0;
 	background-color:rgba(0, 0, 0, 0.726);
+}
+footer {
+	color: white;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.box-logos {
+	width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-footer {
+	width: 20%;
+}
+.logos-footer {
+	width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.caixa-conteudo-footer {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+.conteudo-footer {
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
